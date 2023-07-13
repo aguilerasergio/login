@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    background: linear-gradient(to right, rgb(226, 100, 159), rgb(145, 16, 80));
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.formulario{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( 0, rgb(183, 97, 223), rgb(118, 12, 133));
+    text-align: center;
+    box-shadow: 0 7px 20px rgb(48, 4, 45);
+}
+
+h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 25px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    background: none;
+}
+label .fa-solid{
+    color: rgb(179, 25, 64);
+    margin-left: 5px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgb(100, 6, 37);
+    padding: 0 5px;
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+/* etiqueta a */
+.formulario a{
+    font-size: 18px;
+    color: rgb(44, 34, 34);
+}
+/* boton */
+.button{
+    background: rgb(80, 7, 32);
+}
+ .button{
+    margin: 25px 25px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: bisque;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgb(182, 161, 161);
+}
